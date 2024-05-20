@@ -1,16 +1,13 @@
-/* appling google font over the website  */
 body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
 }
-/* styling menu icon */
 .nav-menu{
     border: none;
     background-color: #fff;
     font-size: 1.5rem;
     color: #fca61f;
 }
-/* styling navbar links  */
 .navbar-nav a{
     color: black;
     position: relative;
@@ -35,14 +32,12 @@ body{
     width: 100%; 
     left: 0; 
   }
-  /* styling contact btn  */
 .c-btn{
     border: none;
     background: #fca61f;
     color: #fff;
     font-size: 1.2rem;
 }
-/* styling home section starts */
 .home{
     background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 100%);
     padding: 30px 0px 10px 0px;
@@ -93,7 +88,6 @@ body{
     transform: scaleX(1);
     transform-origin: bottom left;
 }
-/* adding animation to home section image  */
 .home img{
     animation: floatimg 4s ease-in-out infinite;
 }
@@ -109,37 +103,6 @@ body{
         transform: translateX(0);
     }
 }
-
-/* expertise section starts */
-.heading small{
-    color: #6f34fe;
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-.heading h3{
-    margin-top: 0.5rem;
-    color: #3f396d;
-    font-size: 2.5rem;
-    font-weight: 700;
-}
-.expertise h4{
-    color: #3f396d;
-    font-weight: 700;
-}
-.expertise a{
-    text-decoration: none;
-    color: #fca61f;
-}
-.expertise a:hover{
-    color: #6f34fe;
-}
-.expertise .service-card{
-    text-align: center;
-    padding: 15px 15px;
-    border-radius: 0.7rem;
-}
-
-/* skill section starts */
 .skill{
     background-color: rgb(234, 234, 249);
 }
@@ -195,8 +158,6 @@ body{
 .heading p{
     font-size: 1.3rem;
 }
-
-/* portfolio section starts */
 #myBtnContainer{
     margin-bottom: 45px;
 }
@@ -224,8 +185,6 @@ body{
 .post .card{
     border: none;
 }
-
-/* styling modal group  */
 .btn-c{
     margin-left: 94%;
     background-color: transparent;
@@ -244,7 +203,6 @@ body{
     font-size: 1rem;
     color: #6f34fe;
 }
-/* contact section starts */
 .contact{
     background-color: #cec1c1;
 }
@@ -264,8 +222,6 @@ body{
     padding: 10px 10px;
     width: 80%;
 }
-
-/* footer section starts */
 footer{
     background-color: #211e39;
 }
@@ -288,44 +244,39 @@ footer .link-group a:hover{
     padding: 10px 20px;
     border-radius: 50px;
     background-color: #fca61f; 
-    color: #000; /* Black text */
+    color: #000; 
     text-decoration: none;
-    border: 2px solid #000; /* Black border */
+    border: 2px solid #000; 
     margin-right: 10px;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition on hover */
+    transition: background-color 0.3s ease, color 0.3s ease; 
   }
   
   .rounded-pill.instagram {
-    border-color: #040404; /* Instagram pink border */
-    color: #1d1c1d; /* Instagram pink text */
+    border-color: #040404; 
+    color: #1d1c1d; 
   }
   
   .rounded-pill.github {
-    border-color: #333; /* GitHub black border */
+    border-color: #333; 
     color: #333; 
   }
   
   .rounded-pill:hover {
-    background-color: #000; /* Black background on hover */
-    color: #fff; /* White text on hover */
+    background-color: #000; 
+    color: #fff; 
   }
   
   .rounded-pill.instagram:hover {
-    background-color: #151515; /* Darker Instagram pink background on hover */
+    background-color: #151515; 
   }
   
   .rounded-pill.github:hover {
-    background-color: #000; /* Darker GitHub black background on hover */
+    background-color: #000; 
   }
   
-  /* Adjust icon size */
   .rounded-pill i {
     font-size: 20px;
   }
-  
-  
-
-/* styling back to top button */
 #btn-back-to-top {
     position: fixed;
     bottom: 40px;
