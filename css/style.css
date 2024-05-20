@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
@@ -102,6 +103,35 @@ body{
     100%{
         transform: translateX(0);
     }
+}
+
+
+.heading small{
+    color: #6f34fe;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.heading h3{
+    margin-top: 0.5rem;
+    color: #3f396d;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.expertise h4{
+    color: #3f396d;
+    font-weight: 700;
+}
+.expertise a{
+    text-decoration: none;
+    color: #fca61f;
+}
+.expertise a:hover{
+    color: #6f34fe;
+}
+.expertise .service-card{
+    text-align: center;
+    padding: 15px 15px;
+    border-radius: 0.7rem;
 }
 .skill{
     background-color: rgb(234, 234, 249);
@@ -253,7 +283,7 @@ footer .link-group a:hover{
   
   .rounded-pill.instagram {
     border-color: #040404; 
-    color: #1d1c1d; 
+    color: #1d1c1d;
   }
   
   .rounded-pill.github {
@@ -274,9 +304,13 @@ footer .link-group a:hover{
     background-color: #000; 
   }
   
+
   .rounded-pill i {
     font-size: 20px;
   }
+  
+  
+
 #btn-back-to-top {
     position: fixed;
     bottom: 40px;
